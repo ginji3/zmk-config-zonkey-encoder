@@ -214,7 +214,7 @@
             >;
 
             sensor-bindings = <&rot_kp PG_DN PG_UP>,
-                <&rot_kp C_AC_REDO C_AC_UNDO>;
+                <&rot_kp K_REDO K_UNDO>;
         };
 
 
