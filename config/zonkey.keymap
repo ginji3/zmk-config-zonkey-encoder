@@ -168,27 +168,15 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
-        };
-
-        /* ★ここに追加：1タップ単押しでキー、長押しでレイヤー、タップ+長押しでリピートする設定 */
-
+   
         lt_repeat: lt_repeat {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_REPEAT";
             bindings = <&mo>, <&kp>;
-
             #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>; // 長押し判定の時間（ミリ秒）
-            quick-tap-ms = <200>;   // ★リピートを有効にする時間（ミリ秒）
+            flavor = "hold-preferred";  // 長押しを少し強めに優先
+            tapping-term-ms = <300>;    // 長押し判定（好みに応じて200〜300で調整）
+            quick-tap-ms = <200>;      // タップ+長押しでリピートさせる時間
         };
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
