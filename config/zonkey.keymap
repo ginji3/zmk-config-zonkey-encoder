@@ -171,10 +171,10 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
+            bindings = <&mo>, <&kp>;
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
         };
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
