@@ -17,7 +17,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+4
+  - Sft+Gui+KP 4
   - B
   - B
   - H
@@ -39,11 +39,11 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT COMMAND
+  - LEFT WIN
   - LEFT ALT
   - {t: INT HENKAN, h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: INT5, h: '1'}
+  - {t: INT MUHENKAN, h: '1'}
   - D
   - BACKSPACE
   - ENTER
