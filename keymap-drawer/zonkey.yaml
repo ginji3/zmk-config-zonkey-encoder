@@ -242,7 +242,7 @@ layers:
   - DEL
   '5':
   - '&studio_unlock'
-  - A
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
