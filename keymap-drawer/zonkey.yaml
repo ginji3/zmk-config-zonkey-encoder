@@ -47,7 +47,7 @@ layers:
   - D
   - SPACE
   - ENTER
-  - DEL
+  - BACKSPACE
   '1':
   - CAPSLOCK
   - '`'
