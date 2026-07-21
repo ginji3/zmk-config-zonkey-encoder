@@ -45,7 +45,7 @@ layers:
   - {t: SPACE, h: '2'}
   - {t: INT MUHENKAN, h: '1'}
   - D
-  - BACKSPACE
+  - SPACE
   - ENTER
   - DEL
   '1':
