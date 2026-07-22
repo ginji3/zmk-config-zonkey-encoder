@@ -24,7 +24,7 @@ layers:
   - J
   - K
   - L
-  - ''''
+  - '-'
   - LEFT SHIFT
   - Z
   - X
@@ -32,7 +32,7 @@ layers:
   - {t: V, h: '5'}
   - {t: B, h: '4'}
   - C
-  - '-'
+  - DEL
   - N
   - M
   - ','
@@ -47,7 +47,7 @@ layers:
   - D
   - BACKSPACE
   - ENTER
-  - DELETE
+  - ''''
   '1':
   - CAPSLOCK
   - '`'
